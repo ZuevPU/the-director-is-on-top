@@ -1,13 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 
 <head>
-    <!-- Секция head оставлена без изменений -->
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/100792827" style="position:absolute; left:-9999px;" alt="" /></div>
-    </noscript>
-    <!-- /Yandex.Metrika counter -->
+ <noscript><div><img src="https://mc.yandex.ru/watch/100792827" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Центр знаний «Машук»</title>
@@ -63,19 +59,35 @@
 </head>
 
 <body class="bg-gray-50">
-    <!-- Навигация и шапка -->
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <img src="https://центрзнаниймашук.рф/wp-content/themes/mashuk/assets/images/logo.png"
+                        alt="Логотип Машук" class="h-10">
+                    <span class="font-bold text-lg text-blue-700"></span>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
     <header class="hero-gradient text-white">
         <div class="max-w-6xl mx-auto px-6 py-20 md:py-28">
             <div class="md:w-2/3">
-                <span class="inline-block px-3 py-1 mb-4 bg-blue-800 rounded-full text-sm font-medium">Отчет о
+                <span class="inline-block px-3 py-1 mb-4 bg-blue-800 rounded-full text-sm font-medium">Информация о
                     мероприятии</span>
-                <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Первый модуль программы</h1>
-                <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">«Директор на высоте»</h1>
-                <p class="text-xl mb-8 text-blue-100">Образовательное мероприятие для директоров школ России</p>
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Директор на высоте в
+                </h1>
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Центре знаний «Машук»
+                </h1>
+                <p class="text-xl mb-8 text-blue-100">Итоги весеннего образовательного события для директоров России</p>
                 <div class="flex flex-wrap gap-4">
                     <div class="flex items-center">
                         <i class="far fa-calendar-alt mr-2"></i>
-                        <span>24–27 апреля 2025</span>
+                        <span>24-27 апреля 2025</span>
                     </div>
                     <div class="flex items-center">
                         <i class="fas fa-map-marker-alt mr-2"></i>
@@ -83,28 +95,33 @@
                     </div>
                     <div class="flex items-center">
                         <i class="fas fa-users mr-2"></i>
-                        <span>100 директоров + модераторы и эксперты</span>
+                        <span>100 участников</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
+    <!-- Main Content -->
     <main class="max-w-6xl mx-auto px-6 py-12 lg:flex lg:space-x-8">
+        <!-- Floating Navigation -->
         <div class="hidden lg:block lg:w-1/4 xl:w-1/5 floating-nav h-fit">
             <div class="bg-white p-6 rounded-lg shadow-md sticky top-6">
                 <h3 class="text-lg font-bold mb-4 text-blue-700">Содержание</h3>
                 <ul class="space-y-3">
                     <li><a href="#intro" class="hover:text-blue-600 hover:underline">Описание мероприятия</a></li>
                     <li><a href="#topics" class="hover:text-blue-600 hover:underline">Ключевые темы</a></li>
+                    <li><a href="#speakers" class="hover:text-blue-600 hover:underline">Выступления</a></li>
                     <li><a href="#analytics" class="hover:text-blue-600 hover:underline">Аналитика</a></li>
-                    <li><a href="#resources" class="hover:text-blue-600 hover:underline">Полезные материалы</a></li>
+                    <li><a href="#resources" class="hover:text-blue-600 hover:underline">Ресурсы</a></li>
                     <li><a href="#gallery" class="hover:text-blue-600 hover:underline">Галерея</a></li>
                 </ul>
             </div>
         </div>
 
+        <!-- Article Content -->
         <article class="lg:w-3/4 xl:w-4/5">
+            <!-- Introduction Section -->
             <section id="intro" class="mb-16">
                 <div class="flex items-center mb-8">
                     <div class="h-1 bg-blue-500 flex-grow"></div>
@@ -114,7 +131,7 @@
 
                 <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
                     <img src="https://github.com/ZuevPU/the-director-is-on-top/blob/main/img/photo_5211198784082669319_y.jpg?raw=true"
-                        alt="Участники модуля для директоров" class="w-full h-auto">
+                        alt="Участники Весеннего Педсовета" class="w-full h-auto">
                     <div class="p-6">
                         <p class="mb-6 text-lg">С 24 по 27 апреля 2025 года в Центре знаний «Машук» состоялся первый
                             модуль авторской образовательной программы «Директор на высоте». Мероприятие собрало
@@ -125,11 +142,11 @@
                             <div class="bg-blue-50 p-6 rounded-lg">
                                 <h3 class="text-xl font-bold mb-4 text-blue-800 flex items-center">
                                     <i class="fas fa-bullseye mr-3 text-blue-500"></i>
-                                    Цель мероприятия
+                                    Цели мероприятия
                                 </h3>
                                 <ul class="space-y-3 list-disc pl-5">
-                                    <li>Обучение современным инструментам и методикам работы с детьми и молодежью через
-                                        призму управленческих решений.</li>
+                                    <li>Формирование портрета директора Российской школы (компетентностный профиль с зонами ответственности и возможностями роста) в контексте требований регуляторов и социума, а также разработка инструментов его интеграции (самодиагностика директоров и внешняя оценка) 
+                                    </li>
                                 </ul>
                             </div>
 
@@ -139,11 +156,11 @@
                                     Задачи
                                 </h3>
                                 <ul class="space-y-3 list-disc pl-5">
-                                    <li>Оснащение директоров инструментарием решения актуальных управленческих вопросов.
-                                    </li>
-                                    <li>Повышение личностных и управленческих компетенций.</li>
-                                    <li>Разработка подходов к формированию воспитательного пространства.</li>
-                                    <li>Вовлечение команды в оценку компетенций и онлайн-курс по саморазвитию.</li>
+                                    <li>Оснащение директоров инструментарием решения актуальных управленческих вопросов </li>
+                                        <li>   Повышение личностных и управленческих компетенций директора </li>
+                                            <li>    Разработка подходов к формированию эффективного воспитательного пространства </li>
+                                                <li>   Вовлечение команды директора в оценку компетенций и онлайн-курс</li>
+                                        
                                 </ul>
                             </div>
                         </div>
@@ -151,15 +168,18 @@
                 </div>
             </section>
 
+            <!-- Key Topics Section -->
             <section id="topics" class="mb-16">
                 <div class="flex items-center mb-8">
                     <div class="h-1 bg-blue-500 flex-grow"></div>
-                    <h2 class="text-3xl font-bold px-4 text-center">Ключевые темы</h2>
+                    <h2 class="text-3xl font-bold px-4 text-center">Ключевые темы и аудитория</h2>
                     <div class="h-1 bg-blue-500 flex-grow"></div>
                 </div>
+
                 <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold mb-4 text-gray-800">Темы обсуждения:</h3>
+
                         <div class="flex flex-wrap gap-3 mb-6">
                             <span
                                 class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">Государственные
@@ -179,82 +199,48 @@
                         <p class="mb-6">Участники работали в командах, обсуждали управленческие кейсы, участвовали в
                             лекциях, практикумах и креативных сессиях. Каждый день завершался осмыслением и рефлексией.
                         </p>
-                    </div>
-                </div>
-                <div class="grid md:grid-cols-2 gap-8 mb-6">
-                    <div>
-                        <h4 class="text-xl font-bold mb-4 flex items-center">
-                            <i class="fas fa-users mr-3 text-blue-500"></i>
-                            Про что творили:
-                        </h4>
 
+                        <div class="grid md:grid-cols-2 gap-8 mb-6">
+                            <div>
+                                <h4 class="text-xl font-bold mb-4 flex items-center">
+                                    <i class="fas fa-users mr-3 text-blue-500"></i>
+                                    Про что:
+                                </h4>
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <ul class="list-disc pl-5 space-y-1">
+                                        <li><span>Современные инструменты управления школой — методики решения актуальных управленческих задач для директоров.</span></li>
+                                        <li><span>Повышение личностных и профессиональных компетенций руководителей — развитие навыков эффективного управления.</span></li>
+                                        <li><span>Формирование воспитательного пространства — подходы к созданию среды, способствующей развитию учащихся.</span></li>
+                                        <li><span>Государственные приоритеты в сфере образования — ключевые задачи и их реализация в школах.</span></li>
+                                        <li><span>Инновационные образовательные практики — внедрение новых технологий и методик в учебный процесс.</span></li>
+                                        <li><span>Обмен опытом между директорами — презентация успешных кейсов и обсуждение актуальных проблем.</span></li>
+                                    </ul>
+                                </div>
+                            </div>
 
+                            <div>
+                                <h4 class="text-xl font-bold mb-4 flex items-center">
+                                    <i class="fas fa-map-marked-alt mr-3 text-blue-500"></i>
+                                    География участников:
+                                </h4>
+                                <div class="bg-blue-50 p-4 rounded-lg">
+                                    <p class="mb-2">Кто участвовал?</p>
+                                    <ul class="list-disc pl-5 space-y-1">
+                                        <li> Директора — 100% </li>
+                                        <li> Средний возраст участника — 45,74</li>
+                                        <li> загрузка...</li>
+                                    </ul>
+                                </div>
 
-
-
-
-
-
-
-
-
-
-                        <div class="bg-gray-50 p-4 rounded-lg">
-                            <ul class="list-disc pl-5 space-y-1">
-                                <li> <span>Планирование летнего времени педагога — как отдохнуть с пользой и
-                                        восстановить силы после учебного
-                                        года.</span>
-                                </li>
-                                <li> <span>Профессиональный рост педагога летом — возможности развития
-                                        компетенций педагога в каникулярный период.</span>
-                                </li>
-                                <li> <span>Организация содержательного досуга — современные форматы работы с
-                                        детьми разных возрастов в летних
-                                        программах.</span>
-                                </li>
-                                <li> <span>Медийная грамотность в образовании — использование цифровых и
-                                        видеопродуктов в учебном и
-                                        воспитательном процессе.</span>
-                                </li>
-                                <li> <span>Современные воспитательные практики — инструменты эффективной работы
-                                        для вожатых и
-                                        наставников.</span>
-                                </li>
-                                <li> <span>Обмен опытом участников — презентация успешных кейсов и авторских
-                                        подходов к работе с детьми и
-                                        молодежью.</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h4 class="text-xl font-bold mb-4 flex items-center">
-                            <i class="fas fa-map-marked-alt mr-3 text-blue-500"></i>
-                            География участников:
-                        </h4>
-                        <div class="bg-blue-50 p-4 rounded-lg">
-                            <p class="mb-2">Кто участвовал?</p>
-                            <ul class="list-disc pl-5 space-y-1">
-                                <li> Учителя предметники — 48%</li>
-                                <li> Советники директора по воспитанию — 22%</li>
-                                <li> Методисты — 16%</li>
-                                <li> Директора, заместители директора школ — 5% </li>
-                                <li> Вожатые — 5%</li>
-                                <li> И другие классные специалисты! — 4%</li>
-                            </ul>
+                            </div>
+ 
                         </div>
 
+                        <!--   <img src="https://avatars.mds.yandex.net/i?id=1e35119d56ae8cfaba02579df97c5ac2_l-4342938-images-thumbs&n=130" alt="Карта участников" class="w-full h-auto rounded-lg shadow">-->
                     </div>
+        
 
-                </div>
-
-                <!--   <img src="https://avatars.mds.yandex.net/i?id=1e35119d56ae8cfaba02579df97c5ac2_l-4342938-images-thumbs&n=130" alt="Карта участников" class="w-full h-auto rounded-lg shadow">-->
-                </div>
-                <script type="text/javascript" charset="utf-8" async
-                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaf708e021e0ef20167e5de18bd7d6d70fffcad95fc67b4028fa0a7fe11e65241&amp;width=870&amp;height=350&amp;lang=ru_RU&amp;scroll=true">
-                    </script>
-
+               <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9a27cb54c087c66066f8f1cdbd97b0a6b4edebe7f4d38f9dc7d602d735af8791&amp;width=870&amp;height=350&amp;lang=ru_RU&amp;scroll=true"></script>
                 </div>
             </section>
 
@@ -265,29 +251,27 @@
                     <h2 class="text-3xl font-bold px-4 text-center">Выступления спикеров</h2>
                     <div class="h-1 bg-blue-500 flex-grow"></div>
                 </div>
-                <p class="mb-8 text-lg">В рамках «Весеннего Педсовета» выступили эксперты в области
+                <p class="mb-8 text-lg">В рамках программы выступили эксперты в области
                     образования. Представляем вам обзор ключевых докладов:</p>
                 <!-- Speaker Grid -->
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
                     <!-- Speaker 1 -->
                     <div
                         class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Speaker/Демьянчук.jpg?raw=true"
+                        <img src="https://github.com/ZuevPU/the-director-is-on-top/blob/main/img/DSC05243.jpg?raw=true"
                             alt="Иван Петров" class="w-full h-48 object-cover">
                         <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Роман Демьянчук</h3>
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Антон Сериков</h3>
                             <p class="text-sm text-gray-600 mb-3"></p>
-                            <p class="text-sm text-gray-600 mb-3">Доктор психологических наук,
-                                педагог-психолог высшей категории, доцент кафедры психологии
-                                образования и педагогики Санкт-Петербургского государственного университета</p>
+                            <p class="text-sm text-gray-600 mb-3">Генеральный директор Центра знаний «Машук», заместитель генерального директора Российского общества «Знание» Антон Сериков</p>
                             <div class="mb-3">
                                 <span
-                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Ресурс</span>
+                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Наставник</span>
                                 <span
-                                    class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Педагог</span>
+                                    class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Лидер</span>
                             </div>
                             <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">«Летний период: ключевые аспекты с точки зрения психологии»
+                            <p class="mb-3 text-blue-600">«Ценности подготовки управленческих кадров в образовании»
                             </p>
                             <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
                             <ul class="list-disc pl-5 text-sm space-y-1">
@@ -326,24 +310,21 @@
                     <!-- Speaker 2 -->
                     <div
                         class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Speaker/Антонова.jpg?raw=true"
+                        <img src="https://github.com/ZuevPU/the-director-is-on-top/blob/main/img/DSC05536.jpg?raw=true"
                             alt="Елена Смирнова" class="w-full h-48 object-cover">
                         <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Светлана Антонова</h3>
-                            <p class="text-sm text-gray-600 mb-3">Кандидат педагогических наук, Почётный работник
-                                Просвещения и воспитания РФ, лектор Российского общества "Знание", методист ООО
-                                "СберОбразование"</p>
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Олег Ляшко</h3>
+                            <p class="text-sm text-gray-600 mb-3">Программный директор Центра знаний «Машук»</p>
 
                             <div class="mb-3">
                                 <span
-                                    class="inline-block px-2 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded">Впечатления</span>
+                                    class="inline-block px-2 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded">Любовь</span>
                                 <span
-                                    class="inline-block px-2 py-1 bg-green-100 text-green-800 text-xs font-medium rounded">Вовлечение</span>
+                                    class="inline-block px-2 py-1 bg-green-100 text-green-800 text-xs font-medium rounded">Творчество</span>
                             </div>
 
                             <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">«Фабрика впечатлений или креативные техники проектирования
-                                образовательных событий»</p>
+                            <p class="mb-3 text-blue-600">«О программе»</p>
 
                             <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
                             <ul class="list-disc pl-5 text-sm space-y-1">
@@ -393,7 +374,7 @@
                     </div>
 
                     <!-- Speaker 3 -->
-                    <div
+                 <!--   <div
                         class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
                         <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Speaker/Калинина.jpg?raw=true"
                             alt="Андрей Козлов" class="w-full h-48 object-cover">
@@ -425,7 +406,7 @@
                                 </p>
                             </div>
                             <br>
-                            <!-- Презентация -->
+                           
                             <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
                                 onclick="openPresentation3()">
                                 <div class="flex items-center">
@@ -436,7 +417,7 @@
                                 </div>
                             </div>
                             <br>
-                            <!-- Конспект -->
+                       
                             <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
                                 onclick="openNotes3()">
                                 <div class="flex items-center">
@@ -448,613 +429,7 @@
                             </div>
                         </div>
                     </div>
-
-                </div>
-                <!-- Speaker Grid -->
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-                    <!-- Speaker 4 -->
-                    <div
-                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Speaker/Орлов.jpg?raw=true"
-                            alt="Андрей Козлов" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Илья Орлов-Бунин</h3>
-                            <p class="text-sm text-gray-600 mb-3">Сооснователь креативного кластера «На Заводе»,
-                                руководитель фестиваля «Лето на Заводе»</p>
-
-                            <div class="mb-3">
-                                <span
-                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Креатив</span>
-                                <span
-                                    class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">МалыйГород</span>
-                            </div>
-
-                            <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">«Лето на заводе – или креативное мышление о полезном досуге»
-                            </p>
-
-                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
-                            <ul class="list-disc pl-5 text-sm space-y-1">
-                                <li>Старый завод в Сысерти стал центром новой городской жизни и площадкой для молодёжных
-                                    инициатив.</li>
-                                <li>Молодёжь — не зрители, а соавторы преобразований через труд, творчество и
-                                    предпринимательство.</li>
-                                <li>Культура, арт и вовлечение способны оживить даже забытые территории.</li>
-                            </ul>
-
-                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
-                                <p class="text-sm italic">«Когда-то завод производил железо, сегодня — смыслы, отношения
-                                    и проекты»
-                                </p>
-                            </div>
-                            <br>
-                            <!-- Презентация -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPresentation4()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Презентация</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <br>
-                            <!-- Конспект -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openNotes4()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Конспект</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- Speaker 5 -->
-                    <div
-                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Speaker/Гробова.jpg?raw=true"
-                            alt="Андрей Козлов" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Татьяна Гробова</h3>
-                            <p class="text-sm text-gray-600 mb-3">Руководитель СПО «Классики», кандидат
-                                физико-математических наук, доцент</p>
-
-                            <div class="mb-3">
-                                <span
-                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Лето</span>
-                                <span
-                                    class="inline-block px-2 py-1  bg-green-100 text-green-800 text-xs font-medium rounded">ПоколениеZ</span>
-                            </div>
-
-                            <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">«Идеальное лето в детском лагере»</p>
-
-                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
-                            <ul class="list-disc pl-5 text-sm space-y-1">
-                                <li>Современные дети поколения Z и Альфа требуют адаптированных форматов и высокой
-                                    вовлечённости.</li>
-                                <li>Игровая экономика и творческие мастерские — ключ к мотивации и включённости в
-                                    лагере.</li>
-                                <li>Смена должна быть целостной системой с логикой, структурой и запоминающимися
-                                    результатами.</li>
-                            </ul>
-
-                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
-                                <p class="text-sm italic">«Минусы поколения Z и Альфа — это не проблемы, это наши
-                                    ресурсы. Их просто надо грамотно использовать»
-                                </p>
-                            </div>
-                            <br>
-                            <!-- Презентация -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPresentation5()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Презентация</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <br>
-                            <!-- Конспект -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openNotes5()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Конспект</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- Speaker 6 -->
-                    <div
-                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Speaker/Данн.jpg?raw=true"
-                            alt="Андрей Козлов" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Николай Данн</h3>
-                            <p class="text-sm text-gray-600 mb-3">Основатель международного кинофестиваля и
-                                образовательного онлайн-кинотеатра «Ноль Плюс», член Экспертного совета при Минкультуры
-                                РФ, режиссёр</p>
-
-                            <div class="mb-3">
-                                <span
-                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Кинопедагогика</span>
-                                <span
-                                    class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">эмоции</span>
-                            </div>
-
-                            <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">«Кинопедагогика - как инструмент воспитания»</p>
-
-                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
-                            <ul class="list-disc pl-5 text-sm space-y-1">
-                                <li>Кино помогает ребёнку осмыслить ценности через образы и метафоры.</li>
-                                <li>Диалог после просмотра — главный инструмент педагогического воздействия.</li>
-                                <li>Эмоциональный интеллект развивается, если кино становится поводом для размышлений, а
-                                    не просто развлечением.</li>
-                            </ul>
-
-                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
-                                <p class="text-sm italic">«Если фильм не вызывает внутренний отклик — он не работает.
-                                    Важно не показать кино, а создать диалог вокруг него»
-                                </p>
-                            </div>
-                            <br>
-                            <!-- Презентация -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPresentation6()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Презентация</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <br>
-                            <!-- Конспект -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openNotes6()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Конспект</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Speaker Grid -->
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-
-                    <!-- Speaker 7 -->
-                    <div
-                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Speaker/2025-04-03_12-10-35_LM.jpg?raw=true"
-                            alt="Иван Петров" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Алексей Ильин </h3>
-                            <p class="text-sm text-gray-600 mb-3"></p>
-                            <p class="text-sm text-gray-600 mb-3">Член Координационного совета по делам молодежи в
-                                научной и образовательной сферах Совета при Президенте Российской Федерации по науке и
-                                образованию
-                                Кандидат экономических наук, директор Научно-исследовательского центра креативных
-                                индустрий,
-                                CEO цифровой платформы персонализированной медицины</p>
-                            <div class="mb-3">
-                                <span
-                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Моделирование</span>
-                                <span
-                                    class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Игра</span>
-                            </div>
-
-                            <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">«Разнообразие игр. Секреты успешного лета»</p>
-
-                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
-                            <ul class="list-disc pl-5 text-sm space-y-1">
-                                <li>Игра — это добровольное действие с максимальной вовлечённостью.</li>
-                                <li>Игровые модели развивают сознание, тело, мышление и эмоции.</li>
-                                <li>Игровая динамика активирует гормоны счастья и устойчивости.</li>
-                            </ul>
-
-                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
-                                <p class="text-sm italic">«Нет ничего серьезнее игры»</p>
-                            </div>
-                            <br>
-                            <!-- Презентация -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPresentation7()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Презентация</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- Speaker 8 -->
-                    <div
-                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Speaker/2025-04-02_19-52-55_LM.jpg?raw=true"
-                            alt="Елена Смирнова" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Вадим Дмитриев </h3>
-                            <p class="text-sm text-gray-600 mb-3">Хороший человек</p>
-
-                            <div class="mb-3">
-                                <span
-                                    class="inline-block px-2 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded">Игра</span>
-                                <span
-                                    class="inline-block px-2 py-1 bg-green-100 text-green-800 text-xs font-medium rounded">Геймификация</span>
-                            </div>
-
-                            <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">«А если дождь? Практика кабинетных игр»</p>
-
-                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
-                            <ul class="list-disc pl-5 text-sm space-y-1">
-                                <li>Игра — форма смыслового взаимодействия и моделирования реальности.</li>
-                                <li>Даже простая игра может запускать проектное и ролевое мышление.</li>
-                                <li>Участник превращается в автора и исследователя одновременно.</li>
-                            </ul>
-
-                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
-                                <p class="text-sm italic">«Игра — это магия, но магия доступная каждому»</p>
-                            </div>
-                            <br>
-                            <!-- Презентация -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPresentation8()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Презентация</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <br>
-                            <!-- Конспект -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openNotes8()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Вкусняшки от Вадима</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Speaker 9 -->
-                    <div
-                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Speaker/2025-04-03_12-06-16_LM.jpg?raw=true"
-                            alt="Андрей Козлов" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Алла Демехина </h3>
-                            <p class="text-sm text-gray-600 mb-3">Педагог, региональный представитель сообщества
-                                наставников-просветителей РФ, посол Всероссийского форума классных руководителей 2025,
-                                автор проекта "Воспитание любовью".</p>
-
-                            <div class="mb-3">
-                                <span
-                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Имидж</span>
-                                <span
-                                    class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Личный
-                                    Бренд</span>
-                            </div>
-
-                            <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">«Имидж педагога в сети»</p>
-
-                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
-                            <ul class="list-disc pl-5 text-sm space-y-1">
-                                <li>Учителю важно быть в соцсетях — там его ученики.</li>
-                                <li>Цифровой имидж — это совокупность личных и профессиональных черт.</li>
-                                <li>Контент должен быть осознанным, искренним и регулярным.</li>
-                            </ul>
-
-                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
-                                <p class="text-sm italic">«Учитель в сети — это не просто блогер. Это образец поведения
-                                    и смысла»
-                                </p>
-                            </div>
-                            <br>
-                            <!-- Презентация -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPresentation9()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Презентация</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-                <!-- Speaker Grid -->
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-
-                    <!-- Speaker 10 -->
-                    <div
-                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Speaker/2025-04-03_12-15-07_LM.jpg?raw=true"
-                            alt="Андрей Козлов" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Мария Плоткина </h3>
-                            <p class="text-sm text-gray-600 mb-3">Учительница информатики, соосновательница
-                                Всероссийского проекта Гик Тичерс и Сменка</p>
-
-                            <div class="mb-3">
-                                <span
-                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Лето
-                                    по плану</span>
-                                <span
-                                    class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Цифровое
-                                    лето</span>
-                            </div>
-
-                            <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">«Лето по плану: онлайн-сервисы для учителей»</p>
-
-                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
-                            <ul class="list-disc pl-5 text-sm space-y-1">
-                                <li>Лето — время для экспериментов, новых форматов и цифрового вдохновения. </li>
-                                <li>Онлайн-сервисы и нейросети — помощники, а не конкуренты: они экономят силы и
-                                    открывают новые горизонты. </li>
-                                <li>Навык работы с ИИ начинается с умения формулировать запрос — точный промпт =
-                                    половина успеха.</li>
-                            </ul>
-
-                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
-                                <p class="text-sm italic">«Писать промпты — это как учиться задавать вопросы. Если не
-                                    получилось с первого раза — значит, это просто первая попытка разговора»
-                                </p>
-                            </div>
-                            <br>
-                            <!-- Презентация -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPresentation10()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Презентация</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                    <!-- Speaker 11 -->
-                    <div
-                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Speaker/2025-04-03_12-02-58_LM.jpg?raw=true"
-                            alt="Андрей Козлов" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Юлия Коричина </h3>
-                            <p class="text-sm text-gray-600 mb-3">Психолог в танцевально-двигательном ,
-                                телесно-ориентированном подходах. Соматический практик.
-                                Хореограф.</p>
-
-                            <div class="mb-3">
-                                <span
-                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Соматик</span>
-                                <span
-                                    class="inline-block px-2 py-1  bg-green-100 text-green-800 text-xs font-medium rounded">Ресурс</span>
-                            </div>
-
-                            <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">«Соматическая практика как способ накопления и сохранения
-                                ресурса»</p>
-
-                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
-                            <ul class="list-disc pl-5 text-sm space-y-1">
-                                <li>Телесная осознанность — ресурс восстановления и устойчивости.</li>
-                                <li>Простые дыхательные и телесные практики помогают вернуть опору.</li>
-                                <li>Работа с «горячими» и «нейтральными» зонами снижает стресс.</li>
-                            </ul>
-
-                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
-                                <p class="text-sm italic">«Сначала ощущение — потом понимание. Тело знает раньше, чем
-                                    ум»
-                                </p>
-                            </div>
-                            <br>
-                            <!-- Презентация -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPresentation11()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Презентация</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                    <!-- Speaker 15 -->
-                    <div
-                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Speaker/2025-04-03_17-00-31_LM.jpg?raw=true"
-                            alt="Андрей Козлов" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Мария Афонина</h3>
-                            <p class="text-sm text-gray-600 mb-3">Заместитель Председателя Совета Ассоциации «Добро.рф»,
-                                Член Совета Евразийского женского форума, Мотивационный спикер, Экстремальный и
-                                кризисный психолог</p>
-
-                            <div class="mb-3">
-                                <span
-                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Эмоции</span>
-                                <span
-                                    class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Нейроинтеграция</span>
-                            </div>
-
-                            <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">«Природа эмоций: восстановление жизненной энергии»</p>
-
-                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
-                            <ul class="list-disc pl-5 text-sm space-y-1">
-                                <li>Эмоции живут в теле, и осознанность — ключ к управлению ими.</li>
-                                <li>Наше состояние влияет на эффективность команды и мышления.</li>
-                                <li>Из «красной» и «синей» зоны можно выходить через тело, дыхание и речь.</li>
-                            </ul>
-
-                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
-                                <p class="text-sm italic">«От качества взаимодействия зависит эффективность команды»
-                                </p>
-                            </div>
-                            <br>
-                            <!-- Презентация -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPresentation15()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Презентация</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Speaker Grid -->
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-
-                    <!-- Speaker 13 -->
-                    <div
-                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Speaker/W0KzMl3XV5M.jpg?raw=true"
-                            alt="Андрей Козлов" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Петр Агеев </h3>
-                            <p class="text-sm text-gray-600 mb-3">Директор по развитию кинопедагогики Института развития
-                                кино и медиа и экосистемы «Ноль Плюс», програмный директор международного форума
-                                "Кинопедагогика. БРИКС+", лауреат конкурса профессионального мастерства «Учитель года»
-                            </p>
-
-                            <div class="mb-3">
-                                <span
-                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Кинопедагогика</span>
-                                <span
-                                    class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Киноурок</span>
-                            </div>
-
-                            <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">«Кинопедагогика – практикум по формированию образов»</p>
-
-                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
-                            <ul class="list-disc pl-5 text-sm space-y-1">
-                                <li>Кино — инструмент формирования ценностей и мышления.</li>
-                                <li>Киноурок — это не просмотр, а работа с образами и смыслами.</li>
-                                <li>Важно не «разжёвывать», а задавать вопросы и запускать диалог.
-                                </li>
-                            </ul>
-
-                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
-                                <p class="text-sm italic">«Уместный фильм может быть вместо тысячи слов»
-                                </p>
-                            </div>
-                            <br>
-                            <!-- Презентация -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPresentation13()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Презентация</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- Speaker 14 -->
-                    <div
-                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Speaker/2025-04-03_12-13-03_LM.jpg?raw=true"
-                            alt="Андрей Козлов" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Анна Завалина </h3>
-                            <p class="text-sm text-gray-600 mb-3">Заместитель руководителя департамента реализации
-                                Всероссийского конкурса «Большая перемена»
-                                Движения Первых</p>
-
-                            <div class="mb-3">
-                                <span
-                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Лагерь</span>
-                                <span
-                                    class="inline-block px-2 py-1  bg-green-100 text-green-800 text-xs font-medium rounded">Синхронизация</span>
-                            </div>
-
-                            <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">«Детский отдых со смыслом: как организовать смысловые события
-                                в лагере и вовлечь участников»</p>
-
-                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
-                            <ul class="list-disc pl-5 text-sm space-y-1">
-                                <li>Смысловое событие начинается с ценностей участников.</li>
-                                <li>Диалог, диагностика и синхронизация важнее контента.</li>
-                                <li>Детям нужно соучастие в проектировании смены.</li>
-                            </ul>
-
-                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
-                                <p class="text-sm italic">«Исполнение вашей мечты начинается прямо сейчас. Действуйте!»
-                                </p>
-                            </div>
-                            <br>
-                            <!-- Презентация -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPresentation14()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Презентация</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <br>
-                            <!-- Презентация -->
-                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openvam()">
-                                <div class="flex items-center">
-                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
-                                    <div>
-                                        <h4 class="font-bold">Подарок</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
+                -->
                 </div>
                 <script>
                     function openPresentation1() { window.open('https://disk.yandex.ru/i/opGA6Zqmf50kKw', '_blank'); }
@@ -1065,46 +440,11 @@
 
                     function openPresentation3() { window.open('https://disk.yandex.ru/i/RUMRf0sV41EggA', '_blank'); }
                     function openNotes3() { window.open('https://disk.yandex.ru/i/8XznAnCWCnGXhg', '_blank'); }
-                    function opendop3() { window.open('https://disk.yandex.ru/i/iTrO2itNOt9PUQ', '_blank'); }
-
-
-                    function openPresentation4() { window.open('https://disk.yandex.ru/i/U1aTmVsDTpuByA', '_blank'); }
-                    function openNotes4() { window.open('https://disk.yandex.ru/i/4GBr9ajfr4asKg', '_blank'); }
-
-                    function openPresentation5() { window.open('https://disk.yandex.ru/i/4pMF4tO2EKcJkA', '_blank'); }
-                    function openNotes5() { window.open('https://disk.yandex.ru/i/kM13VGBln0NFNQ', '_blank'); }
-
-                    function openPresentation6() { window.open('https://disk.yandex.ru/i/O5F8kV3z8jbxgw', '_blank'); }
-                    function openNotes6() { window.open('https://disk.yandex.ru/i/wxux_Z_uLawy6w', '_blank'); }
-
-                    function openPresentation7() { window.open('https://disk.yandex.ru/i/2MWHIfanDZsL9w', '_blank'); }
-
-                    function openPresentation8() { window.open('https://disk.yandex.ru/i/GQ6nFvuQA45cKg', '_blank'); }
-                    function openNotes8() { window.open('https://disk.yandex.ru/d/ziMVmMbtijFiIA#', '_blank'); }
-
-
-                    function openPresentation9() { window.open('https://disk.yandex.ru/i/Jv1vXYnw-S7Syw', '_blank'); }
-
-
-                    function openPresentation10() { window.open('https://disk.yandex.ru/i/xID2VjA5rPt7oA', '_blank'); }
-
-                    function openPresentation11() { window.open('https://disk.yandex.ru/i/b3UFyfi-cKl5yA', '_blank'); }
-
-
-                    function openPresentation13() { window.open('https://disk.yandex.ru/d/ntKdIFVPi4TMZg', '_blank'); }
-
-
-                    function openPresentation14() { window.open('https://disk.yandex.ru/i/sUyHAE1Q1PDdUQ', '_blank'); }
-                    function openvam() { window.open('https://disk.yandex.ru/i/9AtLd9N1ZRP30Q', '_blank'); }
-
-
-                    function openPresentation15() { window.open('https://disk.yandex.ru/i/AgM0rEe2Bb4FMg', '_blank'); }
-                    function openNotes15() { window.open('https://disk.yandex.ru/i/WTPspejpvZnzvQ', '_blank'); }
                 </script>
             </section>
 
             <!-- Analytics Section -->
-            <section id="analytics" class="mb-16">
+         <!--      <section id="analytics" class="mb-16">
                 <div class="flex items-center mb-8">
                     <div class="h-1 bg-blue-500 flex-grow"></div>
                     <h2 class="text-3xl font-bold px-4 text-center">Аналитика программы</h2>
@@ -1116,44 +456,39 @@
                     <div class="grid md:grid-cols-3 gap-6 mb-8">
 
                         <div class="bg-white p-6 rounded-lg shadow border-l-4 border-blue-500">
-                            <div class="text-4xl font-bold text-blue-600 mb-2">120</div>
+                            <div class="text-4xl font-bold text-blue-600 mb-2">100</div>
                             <h4 class="text-lg font-medium">Участников</h4>
                             <p class="text-sm text-gray-600 mt-2">Очно</p>
                         </div>
 
                         <div class="bg-white p-6 rounded-lg shadow border-l-4 border-green-500">
-                            <div class="text-4xl font-bold text-green-600 mb-2">ждем</div>
-                            <h4 class="text-lg font-medium"><!--тут --></h4>
-                            <p class="text-sm text-gray-600 mt-2"><!--тут --></p>
+                            <div class="text-4xl font-bold text-green-600 mb-2"></div>
+                            <h4 class="text-lg font-medium"></h4>
+                            <p class="text-sm text-gray-600 mt-2"></p>
                         </div>
 
                         <div class="bg-white p-6 rounded-lg shadow border-l-4 border-purple-500">
-                            <div class="text-4xl font-bold text-purple-600 mb-2"> очень ждем</div>
-                            <h4 class="text-lg font-medium"><!--тут --></h4>
-                            <p class="text-sm text-gray-600 mt-2"><!--тут --></p>
+                            <div class="text-4xl font-bold text-purple-600 mb-2"></div>
+                            <h4 class="text-lg font-medium"></h4>
+                            <p class="text-sm text-gray-600 mt-2"></p>
                         </div>
 
                     </div>
 
 
-                    <!--        <h3 class="text-2xl font-bold mb-4">Отзывы участников</h3>
+                    <h3 class="text-2xl font-bold mb-4">Отзывы участников</h3>
 
-                    <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
                         <div class="testimonial-card p-6 rounded-lg shadow-sm">
                             <div class="flex items-center mb-4">
-                                <img src="" alt="Ольга Иванова" class="w-12 h-12 rounded-full mr-4">
+                                <img src="https://avatars.mds.yandex.net/i?id=b64d9dbe1296aa34b6923e6691a63fb8_sr-10340155-images-thumbs&n=13"
+                                    alt="Ольга Иванова" class="w-12 h-12 rounded-full mr-4">
                                 <div>
-                                    <h4 class="font-bold">
-                                       
-                                    </h4>
-                                    <p class="text-sm text-gray-600">
-                                        
-                                    </p>
+                                    <h4 class="font-bold">Олег Ляшко</h4>
+                                    <p class="text-sm text-gray-600">Программный директор ЦЗ «Машук», г. Пятигорск</p>
                                 </div>
                             </div>
-                            <p class="italic">
-
-                            </p>
+                            <p class="italic">«Это лучший Весенний Педсовет в 2025 году!»</p>
                             <div class="flex mt-3 text-yellow-400">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1165,19 +500,14 @@
 
                         <div class="testimonial-card p-6 rounded-lg shadow-sm">
                             <div class="flex items-center mb-4">
-                                <img src="" alt="Сергей Петров" class="w-12 h-12 rounded-full mr-4">
+                                <img src="https://github.com/ZuevPU/the-director-is-on-top/blob/main/img/DSC05243.jpg?raw=true"
+                                    alt="Сергей Петров" class="w-12 h-12 rounded-full mr-4">
                                 <div>
-                                    <h4 class="font-bold">
-                                        
-                                    </h4>
-                                    <p class="text-sm text-gray-600">
-                                       
-                                    </p>
+                                    <h4 class="font-bold">Антонльга Лантова</h4>
+                                    <p class="text-sm text-gray-600">Школа №2 им В.К. Аргун, Абзахия</p>
                                 </div>
                             </div>
-                            <p class="italic">
-
-                            </p>
+                            <p class="italic">«Я сама являюсь классным руководителем 7 класса, много времени провожу с классом вне школы, трачу на это много сил. Мне будет очень интересно узнать что-то новое и внедрить это в свою работу, рассказать об этом коллегам»</p>
                             <div class="flex mt-3 text-yellow-400">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -1187,180 +517,62 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
-                    <!--<h3 class="text-2xl font-bold mb-4">Топ-5 самых популярных сессий</h3>
+                </div>-->
+                <!--<h3 class="text-2xl font-bold mb-4">Топ-5 самых популярных сессий</h3>
 
-    <div class="mb-6">
-        <div class="flex items-center justify-between mb-2">
-            <span>1. Цифровые инструменты для учителя</span>
-            <span class="font-bold text-blue-600">87%</span>
-        </div>
-        <div class="w-full bg-gray-200 rounded-full h-2.5">
-            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 87%"></div>
-        </div>
-    </div>
+                    <div class="mb-6">
+                        <div class="flex items-center justify-between mb-2">
+                            <span>1. Цифровые инструменты для учителя</span>
+                            <span class="font-bold text-blue-600">87%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 87%"></div>
+                        </div>
+                    </div>
 
-    <div class="mb-6">
-        <div class="flex items-center justify-between mb-2">
-            <span>2. Работа с мотивацией учеников</span>
-            <span class="font-bold text-blue-600">82%</span>
-        </div>
-        <div class="w-full bg-gray-200 rounded-full h-2.5">
-            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 82%"></div>
-        </div>
-    </div>
+                    <div class="mb-6">
+                        <div class="flex items-center justify-between mb-2">
+                            <span>2. Работа с мотивацией учеников</span>
+                            <span class="font-bold text-blue-600">82%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 82%"></div>
+                        </div>
+                    </div>
 
-    <div class="mb-6">
-        <div class="flex items-center justify-between mb-2">
-            <span>3. Профилактика эмоционального выгорания</span>
-            <span class="font-bold text-blue-600">78%</span>
-        </div>
-        <div class="w-full bg-gray-200 rounded-full h-2.5">
-            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 78%"></div>
-        </div>
-    </div>
+                    <div class="mb-6">
+                        <div class="flex items-center justify-between mb-2">
+                            <span>3. Профилактика эмоционального выгорания</span>
+                            <span class="font-bold text-blue-600">78%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 78%"></div>
+                        </div>
+                    </div>
 
-    <div class="mb-6">
-        <div class="flex items-center justify-between mb-2">
-            <span>4. Современные методики преподавания</span>
-            <span class="font-bold text-blue-600">75%</span>
-        </div>
-        <div class="w-full bg-gray-200 rounded-full h-2.5">
-            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 75%"></div>
-        </div>
-    </div>
+                    <div class="mb-6">
+                        <div class="flex items-center justify-between mb-2">
+                            <span>4. Современные методики преподавания</span>
+                            <span class="font-bold text-blue-600">75%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 75%"></div>
+                        </div>
+                    </div>
 
-    <div class="mb-6">
-        <div class="flex items-center justify-between mb-2">
-            <span>5. Правовые аспекты работы педагога</span>
-            <span class="font-bold text-blue-600">68%</span>
-        </div>
-        <div class="w-full bg-gray-200 rounded-full h-2.5">
-            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 68%"></div>
-        </div>
-    </div>
-</div>-->
+                    <div class="mb-6">
+                        <div class="flex items-center justify-between mb-2">
+                            <span>5. Правовые аспекты работы педагога</span>
+                            <span class="font-bold text-blue-600">68%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 68%"></div>
+                        </div>
+                    </div>
+                </div>-->
             </section>
             <!-- Resources Section -->
-            <section id="resources" class="mb-16">
-                <div class="flex items-center mb-8">
-                    <div class="h-1 bg-blue-500 flex-grow"></div>
-                    <h2 class="text-3xl font-bold px-4 text-center">Полезные материалы</h2>
-                    <div class="h-1 bg-blue-500 flex-grow"></div>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6">
-                    <div class="grid md:grid-cols-2 gap-8 mb-8">
-                        <div>
-                            <h3 class="text-2xl font-bold mb-4 flex items-center">
-                                <i class="fas fa-file-alt mr-3 text-blue-500"></i>
-                                Раздаточные материалы
-                            </h3>
-                            <div class="space-y-3">
-                                <!-- Block 1 -->
-                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
-                                    <div class="flex items-center" onclick="openCloudLinkkviz()">
-                                        <i class="far fa-file-powerpoint text-red-500 text-2xl mr-3"></i>
-                                        <div>
-                                            <h4 class="font-bold">Просветительский Квиз</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Block 2 -->
-                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
-                                    <div class="flex items-center" onclick="prez()">
-                                        <i class="far fa-file-powerpoint text-red-500 text-2xl mr-3"></i>
-                                        <div>
-                                            <h4 class="font-bold">Презентации команд</h4>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Block 2 -->
-                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
-                                    <div class="flex items-center" onclick="prac()">
-                                        <i class="far fa-file-powerpoint text-red-500 text-2xl mr-3"></i>
-                                        <div>
-                                            <h4 class="font-bold">Практики практик</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <script>
-                                function openCloudLinkkviz() {
-                                    //const cloudUrl = "https://disk.yandex.ru/i/XkTqEX1SZKKP-g";
-                                    window.open(cloudUrl, '_blank'); // Fixed the method spelling to "open"
-                                }
-                                function prez() {
-                                    // const cloudUrl = 'https://disk.yandex.ru/d/N67v1Bk_0UoWgg'; // Updated method name consistency
-                                    window.open(cloudUrl, '_blank'); // Opens the link in a new tab
-                                }
-                                function prac() {
-                                    //  const cloudUrl = 'https://disk.yandex.ru/d/CB08rOgVlGHvNw'; // Updated method name consistency
-                                    window.open(cloudUrl, '_blank'); // Opens the link in a new tab
-                                }
-                            </script>
-                        </div>
-
-                        <div>
-                            <h3 class="text-2xl font-bold mb-4 flex items-center">
-                                <i class="fas fa-video mr-3 text-blue-500"></i>
-                                Видеозаписи, и не только
-                            </h3>
-
-                            <div class="space-y-3">
-                                <!-- Итоговый видеоролик -->
-                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                    onclick="openFinalVideo()">
-                                    <div class="flex items-center">
-                                        <i class="far fa-file-video text-red-500 text-2xl mr-3"></i>
-                                        <div>
-                                            <h4 class="font-bold">Итоговый видеоролик</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Гимн -->
-                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                    onclick="openHymn2()">
-                                    <div class="flex items-center">
-                                        <i class="far fa-file-video text-red-500 text-2xl mr-3"></i>
-                                        <div>
-                                            <h4 class="font-bold">Гимн</h4>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Фотографии -->
-                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                    onclick="openPhotos()">
-                                    <div class="flex items-center">
-                                        <i class="far fa-images fa-image text-red-500 text-2xl mr-3"></i>
-                                        <div>
-                                            <h4 class="font-bold">Фотографии</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <script>
-                                function openFinalVideo() {
-                                    window.open('#', '_blank'); // Здесь будет ссылка на итоговое видео
-                                }
-
-                                function openHymn() {
-                                    window.open('https://disk.yandex.ru/i/WaEIPiT1UTiIlQ', '_blank'); // Здесь будет ссылка на гимн
-                                }
-
-                                function openPhotos() {
-                                    window.open('#', '_blank'); // Здесь будет ссылка на фотографии
-                                }
-                            </script>
-
-                        </div>
-                    </div>
-
-                </div>
-            </section>
+           
             <section id="gallery" class="mb-16">
                 <div class="flex items-center mb-8">
                     <div class="h-1 bg-blue-500 flex-grow"></div>
@@ -1369,17 +581,24 @@
                 </div>
                 <div class="gallery-grid mb-8"></div>
             </section>
-
+            
             <script>
                 const galleryGrid = document.querySelector('.gallery-grid');
                 const images = [
-                    { src: "https://github.com/ZuevPU/the-director-is-on-top/blob/main/img/photo_5211198784082669319_y.jpg?raw=true", alt: "" }
+                { src: "https://github.com/ZuevPU/the-director-is-on-top/blob/main/img/photo_5211198784082669319_y.jpg?raw=true", alt: "" },
+                 { src: "https://github.com/ZuevPU/the-director-is-on-top/blob/main/img/1.png?raw=true", alt: "" },
+                    { src: "https://github.com/ZuevPU/the-director-is-on-top/blob/main/img/2.png?raw=true", alt: "" },
+                    { src: "https://github.com/ZuevPU/the-director-is-on-top/blob/main/img/3.png?raw=true", alt: "" },
+                    { src: "https://github.com/ZuevPU/the-director-is-on-top/blob/main/img/4.png?raw=true", alt: "" },
+                    { src: "https://github.com/ZuevPU/the-director-is-on-top/blob/main/img/5.png?raw=true", alt: "" }
+                    
 
+                    
 
-
+                    
                     // Добавьте остальные изображения
                 ];
-
+            
                 images.forEach(image => {
                     const div = document.createElement('div');
                     div.className = 'gallery-item';
