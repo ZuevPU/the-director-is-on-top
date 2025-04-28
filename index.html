@@ -637,7 +637,8 @@
                                 <li>Организуйте воспитательные события, а не просто мероприятия для отчётности</li>
                             </ul>
                             <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
-                                <p class="text-sm italic">«Помогайте ученикам присваивать правильные ценности, работая с их внутренней позицией
+                                <p class="text-sm italic">«Помогайте ученикам присваивать правильные ценности, работая с
+                                    их внутренней позицией
                                     и самосознанием»</p>
                             </div>
 
@@ -864,156 +865,344 @@
 
                 <!-- Practice List -->
                 <div class="space-y-6">
-                    
-                    <!-- Speaker 1 -->
-                    <div class="flex items-center justify-between bg-white rounded-lg shadow-md p-6">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-800">Вяткина Анна Викторовна</h3>
-                            <p class="text-sm text-gray-600">Модели сотрудничества с родителями в условиях новой школы
-                            </p>
-                        </div>
-                        <div class="flex space-x-2">
-                            <button class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPractice1()">Практика</button>
-                            <button class="p-3 border rounded-lg hover:bg-gray-100 transition duration-200"
-                                onclick="openDescription1()">Описание</button>
-                        </div>
-                    </div>
 
-                    <!-- Speaker 2 -->
-                    <div class="flex items-center justify-between bg-white rounded-lg shadow-md p-6">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-800">Киселева Марина Ивановна</h3>
-                            <p class="text-sm text-gray-600">Семья и школа: вместе сделаем больше!</p>
+                    <!-- Speakers Section -->
+                    <section id="speakers" class="mb-16">
+                        <div class="flex items-center mb-8">
+                            <div class="h-1 bg-blue-500 flex-grow"></div>
+                            <h2 class="text-3xl font-bold px-4 text-center">Выступления спикеров</h2>
+                            <div class="h-1 bg-blue-500 flex-grow"></div>
                         </div>
-                        <div class="flex space-x-2">
-                            <button class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPractice2()">Практика</button>
-                            <button class="p-3 border rounded-lg hover:bg-gray-100 transition duration-200"
-                                onclick="openDescription2()">Описание</button>
-                        </div>
-                    </div>
+                        <p class="mb-8 text-lg">В рамках программы выступили эксперты в области образования.
+                            Представляем вам обзор ключевых докладов:</p>
 
-                    <!-- Speaker 3 -->
-                    <div class="flex items-center justify-between bg-white rounded-lg shadow-md p-6">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-800">Королева Светлана Викторовна</h3>
-                            <p class="text-sm text-gray-600">Патриотическое воспитание: сочетание традиций и инноваций
-                            </p>
-                        </div>
-                        <div class="flex space-x-2">
-                            <button class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPractice3()">Практика</button>
-                            <button class="p-3 border rounded-lg hover:bg-gray-100 transition duration-200"
-                                onclick="openDescription3()">Описание</button>
-                        </div>
-                    </div>
 
-                    <!-- Speaker 4 -->
-                    <div class="flex items-center justify-between bg-white rounded-lg shadow-md p-6">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-800">Кульшина Наталья Викторовна</h3>
-                            <p class="text-sm text-gray-600">Опыт, достижения и перспективы реализации инклюзивного
-                                образования на базе МАОУ «СОШ № 21»</p>
-                        </div>
-                        <div class="flex space-x-2">
-                            <button class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPractice4()">Практика</button>
-                            <button class="p-3 border rounded-lg hover:bg-gray-100 transition duration-200"
-                                onclick="openDescription4()">Описание</button>
-                        </div>
-                    </div>
 
-                    <!-- Speaker 5 -->
-                    <div class="flex items-center justify-between bg-white rounded-lg shadow-md p-6">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-800">Николаюк Елизавета Алексеевна</h3>
-                            <p class="text-sm text-gray-600">Управленческие практики по повышению качества образования в
-                                рамках выхода из списка школ с низкими образовательными результатами</p>
-                        </div>
-                        <div class="flex space-x-2">
-                            <button class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPractice5()">Практика</button>
-                            <button class="p-3 border rounded-lg hover:bg-gray-100 transition duration-200"
-                                onclick="openDescription5()">Описание</button>
-                        </div>
-                    </div>
+                        <!-- Speaker List -->
+                        <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+                            <!-- Speaker 1 -->
+                            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800">Вяткина Анна Викторовна</h3>
+                                <p class="text-sm text-gray-600 mb-3">МАОУ «Лицей №10» г. Перми</p>
+                                <div class="mb-3">
+                                    <span
+                                        class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Добрососедство</span>
+                                    <span
+                                        class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Сотрудничество</span>
+                                </div>
+                                <h4 class="font-bold mb-1">Тема:</h4>
+                                <p class="mb-3 text-blue-600">«Модели сотрудничества с родителями в условиях новой
+                                    школы»</p>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openPractice1()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Презентация</h4>
+                                        </div>
+                                    </div>
+                                </div>
 
-                    <!-- Speaker 6 -->
-                    <div class="flex items-center justify-between bg-white rounded-lg shadow-md p-6">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-800">Скобенко Михаил Эдуардович</h3>
-                            <p class="text-sm text-gray-600">«Путь к успеху». Создание системы разнообразностей и
-                                возможностей для детей в обычной поселковой школе и на уровне муниципалитета</p>
-                        </div>
-                        <div class="flex space-x-2">
-                            <button class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPractice6()">Практика</button>
-                            <button class="p-3 border rounded-lg hover:bg-gray-100 transition duration-200"
-                                onclick="openDescription6()">Описание</button>
-                        </div>
-                    </div>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openDescription1()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Описание</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <!-- Speaker 7 -->
-                    <div class="flex items-center justify-between bg-white rounded-lg shadow-md p-6">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-800">Сорожкина Софья Викторовна</h3>
-                            <p class="text-sm text-gray-600">Системное взаимодействие: как построить эффективное
-                                сотрудничество школы и родителей для успешного образования</p>
-                        </div>
-                        <div class="flex space-x-2">
-                            <button class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPractice7()">Практика</button>
-                            <button class="p-3 border rounded-lg hover:bg-gray-100 transition duration-200"
-                                onclick="openDescription7()">Описание</button>
-                        </div>
-                    </div>
+                            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800">Киселева Марина Ивановна</h3>
+                                <p class="text-sm text-gray-600 mb-3">МБОУ учреждение «Гимназия № 17»</p>
+                                <div class="mb-3">
+                                    <span
+                                        class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Счастье</span>
+                                    <span
+                                        class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Пространства</span>
+                                </div>
+                                <h4 class="font-bold mb-1">Тема:</h4>
+                                <p class="mb-3 text-blue-600">«Семья и школа: вместе сделаем больше!»</p>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openPractice2()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Презентация</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openDescription2()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Описание</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <!-- Speaker 8 -->
-                    <div class="flex items-center justify-between bg-white rounded-lg shadow-md p-6">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-800">Чипенюк Николай Иванович</h3>
-                            <p class="text-sm text-gray-600">«Дисциплина, развитие, дух: кадетская модель школы полного
-                                дня»</p>
-                        </div>
-                        <div class="flex space-x-2">
-                            <button class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPractice8()">Практика</button>
-                            <button class="p-3 border rounded-lg hover:bg-gray-100 transition duration-200"
-                                onclick="openDescription8()">Описание</button>
-                        </div>
-                    </div>
+                            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800">Королева Светлана Викторовна</h3>
+                                <p class="text-sm text-gray-600 mb-3">МКОУ «Средняя общеобразовательная школа №4 МО «Ахтубинский район»</p>
+                                <div class="mb-3">
+                                    <span
+                                        class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">История</span>
+                                    <span
+                                        class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Технологии</span>
+                                </div>
+                                <h4 class="font-bold mb-1">Тема:</h4>
+                                <p class="mb-3 text-blue-600">«Патриотическое воспитание: сочетание традиций и
+                                    инноваций»</p>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openPractice3()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Презентация</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openDescription3()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Описание</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800">Кульшина Наталья Викторовна</h3>
+                                <p class="text-sm text-gray-600 mb-3">МАОУ «Средняя общеобразовательная школа № 21 имени Героя Советского Союза Юдина Александра Дмитриевича»</p>
+                                <div class="mb-3">
+                                    <span
+                                        class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Среда</span>
+                                    <span
+                                        class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Адаптация</span>
+                                </div>
+                                <h4 class="font-bold mb-1">Тема:</h4>
+                                <p class="mb-3 text-blue-600">«Опыт, достижения и перспективы реализации инклюзивного
+                                    образования на базе МАОУ «СОШ № 21»</p>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openPractice4()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Презентация</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openDescription4()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Описание</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <!-- Speaker 9 -->
-                    <div class="flex items-center justify-between bg-white rounded-lg shadow-md p-6">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-800">Шандренкова Надежда Германовна</h3>
-                            <p class="text-sm text-gray-600">От школы к лицею: изменение траектории и обновление
-                                концепции</p>
-                        </div>
-                        <div class="flex space-x-2">
-                            <button class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPractice9()">Практика</button>
-                            <button class="p-3 border rounded-lg hover:bg-gray-100 transition duration-200"
-                                onclick="openDescription9()">Описание</button>
-                        </div>
-                    </div>
+                            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800">Николаюк Елизавета Алексеевна</h3>
+                                <p class="text-sm text-gray-600 mb-3">МБОУ «Кайбальская СШ»</p>
+                                <div class="mb-3">
+                                    <span
+                                        class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Стратегия</span>
+                                    <span
+                                        class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Вовлечение</span>
+                                </div>
+                                <h4 class="font-bold mb-1">Тема:</h4>
+                                <p class="mb-3 text-blue-600">«Управленческие практики по повышению качества образования
+                                    в рамках выхода из списка школ с низкими образовательными результатами»</p>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openPractice5()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Презентация</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openDescription5()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Описание</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <!-- Speaker 10 -->
-                    <div class="flex items-center justify-between bg-white rounded-lg shadow-md p-6">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-800">Юханова Мария Валериановна</h3>
-                            <p class="text-sm text-gray-600">Система преемственности детского сада и школы в условиях
-                                единой образовательной организации</p>
-                        </div>
-                        <div class="flex space-x-2">
-                            <button class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
-                                onclick="openPractice10()">Практика</button>
 
-                        </div>
-                    </div>
+                            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800">Скобенко Михаил Эдуардович</h3>
+                                <p class="text-sm text-gray-600 mb-3">МБОУ «Средняя общеобразовательная школа √6 п. Новый Надеждинского района»</p>
+                                <div class="mb-3">
+                                    <span
+                                        class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Успех</span>
+                                    <span
+                                        class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Комфорт</span>
+                                </div>
+                                <h4 class="font-bold mb-1">Тема:</h4>
+                                <p class="mb-3 text-blue-600">«Путь к успеху». Создание системы разнообразностей и
+                                    возможностей для детей в обычной поселковой школе и на уровне муниципалитета»</p>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openPractice6()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Презентация</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openDescription6()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Описание</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800">Сорожкина Софья Викторовна</h3>
+                                <p class="text-sm text-gray-600 mb-3">МБОУ города Костромы «Средняя общеобразовательная школа №37 имени выдающегося земляка Тартышева Андрея Михайловича»</p>
+                                <div class="mb-3">
+                                    <span
+                                        class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Идея</span>
+                                    <span
+                                        class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Метод</span>
+                                </div>
+                                <h4 class="font-bold mb-1">Тема:</h4>
+                                <p class="mb-3 text-blue-600">«Системное взаимодействие: как построить эффективное
+                                    сотрудничество школы и родителей для успешного образования»</p>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openPractice7()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Презентация</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openDescription7()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Описание</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800">Чипенюк Николай Иванович</h3>
+                                <p class="text-sm text-gray-600 mb-3">МБОУ «Средняя школа №2 им. Е.В.Камышева»</p>
+                                <div class="mb-3">
+                                    <span
+                                        class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Преемственность</span>
+                                    <span
+                                        class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Развитие</span>
+                                </div>
+                                <h4 class="font-bold mb-1">Тема:</h4>
+                                <p class="mb-3 text-blue-600">«Дисциплина, развитие, дух: кадетская модель школы полного
+                                    дня»</p>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openPractice8()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Презентация</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openDescription8()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Описание</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800">Шандренкова Надежда Германовна</h3>
+                                <p class="text-sm text-gray-600 mb-3">МБОУ «Лицей №3 имени А.С. Пушкина» Нижнекамского муниципального района Республики Татарстан</p>
+                                <div class="mb-3">
+                                    <span
+                                        class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Ресурс</span>
+                                    <span
+                                        class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Опыт</span>
+                                </div>
+                                <h4 class="font-bold mb-1">Тема:</h4>
+                                <p class="mb-3 text-blue-600">«От школы к лицею: изменение траектории и обновление
+                                    концепции»</p>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openPractice9()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Презентация</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openDescription9()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Описание</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+                                <h3 class="text-xl font-bold mb-2 text-gray-800">Юханова Мария Валериановна</h3>
+                                <p class="text-sm text-gray-600 mb-3">МАОУ «Прогимназия «Эврика»</p>
+                                <div class="mb-3">
+                                    <span
+                                        class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Среда</span>
+                                    <span
+                                        class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Культура</span>
+                                </div>
+                                <h4 class="font-bold mb-1">Тема:</h4>
+                                <p class="mb-3 text-blue-600">«Система преемственности детского сада и школы в условиях
+                                    единой образовательной организации»</p>
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200 mt-4"
+                                    onclick="openPractice10()">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Презентация</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+
+
+
                 </div>
             </div>
+
+
+
 
             <script>
                 // Функции для открытия практик
